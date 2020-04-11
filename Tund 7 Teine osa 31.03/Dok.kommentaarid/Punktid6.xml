@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Punktid6</name>
+    </assembly>
+    <members>
+        <member name="T:Punktid6.Punkt">
+            <summary>
+              Tasandi punkti andmete hoidmine
+            </summary>
+        </member>
+        <member name="F:Punktid6.Punkt.x">
+            <summary>
+               Muutuja ainult lugemiseks. 
+               Andmed sisestatavad vaid konstruktoris.
+            </summary>
+        </member>
+        <member name="M:Punktid6.Punkt.#ctor(System.Int32,System.Int32)">
+            <summary>
+               Algandmed punkti loomisel kindlasti vajalikud
+            </summary>
+        </member>
+        <member name="M:Punktid6.Punkt.KaugusNullist">
+            <summary>
+              Kaugus arvutatakse Pythagorase teoreemi järgi.
+            </summary>
+        </member>
+        <member name="T:Punktid6.Punktiproov">
+            <summary>
+               Eraldi klass punkti katsetamiseks.
+            </summary>
+        </member>
+    </members>
+</doc>
