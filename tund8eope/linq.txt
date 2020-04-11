@@ -1,0 +1,39 @@
+LINQ
+
+C# keelega tutvumise kolmas ja praeguseks viimane etapp
+
+http://minitorn.tlu.ee/~jaagup/kool/java/loeng/dotnet/linq.txt
+
+Esmaspäevases/teisipäevases tunnis tehke läbi enamik näiteid ning igast ülesannete plokist vähemasti üks ülesanne (või omamõeldud katsetus samast valdkonnast). 
+
+Teemasid kokku võtvaks ülesandeks koostage igaüks C# ja LINQ abil failis olevat mõnevõrra spetsiifilist andmestikku haldav klass koos näitrakendusega. 
+
+Tutvustage selle tööd ning ning omal rohkem pusimist nõudnud nii 1. kui 2. osa ühe näite tööd õppejõule videosilla kaudu aadressil https://meet.google.com/kck-qhhy-gcj
+
+Näitrakenduse eeldatava keerukuse näide:
+
+Sisendfailis on meloodialõik MIDI numbrite ning löökide arvudega
+(Kus on minu koduke, 2 takti)
+
+sisend.txt
+64 1
+64 1
+62 1
+64 1
+60 1
+60 1
+60 2
+
+Klassile käsklused kõrgeima noodi (64) ja löökide koguarvu (8) leidmiseks, transponeerimiseks soovitud intervalli (nt +7) jagu väljundiga teise faili:
+
+transponeeritud.txt
+71 1
+71 1
+69 1
+71 1
+67 1
+67 1
+67 2
+
+
+
